@@ -14,13 +14,13 @@ body {
 }
 
 header
-{  position:absolute;
+{   position:absolute;
     top:0;
     left:4;
     width:100%;
     padding: 30px 100px;
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items:center;
     z-index:100;
 
@@ -31,6 +31,7 @@ header
     font-size: 2em;
     color: #359381;
     pointer-events: none;
+    margin-right: 270px;
 }
 
 .navigation a {
@@ -56,4 +57,39 @@ header
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+#text{
+    position:absolute;
+    font-size: 5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(7, 91, 77);
+}
+.parallax img
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    pointer-events:none;
+    
+}
+
+.sec{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+    font-weight:300;
+}
+
+.sec p{
+    color:#fff;
+    font-size:1em;
+    font-weight:300;
+}
+
+.sec h2{
+    font-size:3em;
+    color:#fff;
+    margin-bottom: 10px;
 }
