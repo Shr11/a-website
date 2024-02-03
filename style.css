@@ -16,9 +16,9 @@ body {
 header
 {   position:absolute;
     top:0;
-    left:4;
+    left:-10px;
     width:100%;
-    padding: 30px 100px;
+    padding: 25px 100px;
     display:flex;
     justify-content:flex-start;
     align-items:center;
@@ -32,8 +32,18 @@ header
     color: #359381;
     pointer-events: none;
     margin-right: 270px;
+    left:0px;
+    width:250px;
 }
 
+.logo img{
+    position: absolute;
+    left:-10;
+    top:0;
+    width: 210px;
+    height: auto;
+    padding: -30px 10px;
+}
 .navigation a {
     text-decoration: none;
     color: #359381;
@@ -41,6 +51,7 @@ header
     border-radius: 30px;
     margin: 0 10px;
     font-weight: 600;
+    
 }
 
 .navigation a:hover ,
@@ -77,7 +88,7 @@ header
 
 .sec{
     position: relative;
-    background: #003329;
+    background: #359381;
     padding: 100px;
     font-weight:300;
 }
